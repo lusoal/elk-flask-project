@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+            </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Logs Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+          <th>Status</th>
+          <th>Mensagem</th> 
+        </tr>
+        {% for status, mensagem in lista %}
+        <tr>
+          <td>{{ status }}</td>
+          <td>{{ mensagem }}</td> 
+        </tr>
+        {% endfor %}
+      </table>
+    <a href="/returnDash"><button>Voltar</button></a>
+</body>
+</html>
