@@ -3,7 +3,7 @@ import requests
 from datetime import date, timedelta
 import datetime
 
-url = "http://it4.brazilsouth.cloudapp.azure.com:9200"
+url = ""
 
 def get_elk_logs(dias):
     d = datetime.datetime.today() - timedelta(days=dias)
