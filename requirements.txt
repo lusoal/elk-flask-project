@@ -27,7 +27,7 @@ pandas==0.23.1
 pylint==1.9.2
 python-dateutil==2.7.3
 pytz==2018.4
-requests==2.19.1
+requests==2.20.0
 s3transfer==0.1.13
 singledispatch==3.4.0.3
 six==1.11.0
